@@ -1,0 +1,24 @@
+opening tag <h1>
+closing tag </h1>
+self closing tag <br/>
+
+
+<h1 id="">hello world</h1>
+<p>hello world abcd lorem ipsum</p>
+
+element
+tags
+markup
+
+attribute tags ko extra information deta hain.
+
+
+
+<html>
+<head>
+<title></title>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Personal info form</h1>
+    <fieldset>
+        <legend>Personal information form</legend>
+      <form>
+        <label for="fullname">Fullname</label> <br />
+        <input
+          type="text"
+          id="fullname"
+          placeholder="Enter your full name"
+          required
+          maxlength="15"
+          minlength="5"
+        /><br /><br />
+
+        <label for="age">Age</label> <br />
+        <input
+          type="number"
+          required
+          min="15"
+          max="60"
+          id="age"
+          placeholder="Enter your age"
+        /><br /><br />
+
+        <label for="email">Email</label> <br />
+        <input
+          type="email"
+          id="email"
+          required
+          placeholder="Enter your email"
+        /><br /><br />
+
+        <label for="bio">Bio</label> <br />
+        <textarea
+          rows="3"
+          cols="20"
+          id="bio"
+          placeholder="enter your short description"
+        ></textarea>
+        <br /><br />
+
+        <input type="submit" value="Submit" />
+
+        <select>
+            <option value="sindh">Sindh</option>
+            <option value="punjab">Punjab</option>
+            <option value="punjab">Balochistan</option>
+            <option value="punjab">KPK</option>
+        </select>
+      </form>
+    </fieldset>
+
+    <!-- <a href="./index.html">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrOYOJaOC7UCiSspI__1grot4vMmpYJakD3w&s" alt="testing">
+    </a> -->
+  </body>
+</html>

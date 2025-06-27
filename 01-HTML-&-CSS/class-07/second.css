@@ -1,0 +1,23 @@
+#heading-one{
+    color: rgb(255, 147, 255);
+}
+.heading{
+    color: green;
+}
+
+h1 {
+    color: blue !important;
+}
+
+/* *{
+    color: red;
+} */
+
+/* child selector */
+/* .parent > p{
+    color: orangered;
+} */
+/* Descendant selector */
+.parent p{
+    color: orangered;
+}

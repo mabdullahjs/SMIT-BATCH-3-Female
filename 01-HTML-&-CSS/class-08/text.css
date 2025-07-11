@@ -1,0 +1,52 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    font-family: "Fira Sans", sans-serif;
+}
+
+p{
+    font-weight: lighter;
+    font-style: italic;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+} */
+
+
+@font-face {
+    font-family: tektur;
+    src: url("./fonts/Tektur.ttf");
+}
+
+body {
+    font-family: tektur;
+}
+
+h1 {
+    text-align: end;
+}
+p {
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: line-through;
+    /* line-height: 60px;
+    word-spacing: 30px;
+    letter-spacing: 5px; */
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/* 
+font family (download + url)
+color properties
+browser color picker
+text properties
+*/

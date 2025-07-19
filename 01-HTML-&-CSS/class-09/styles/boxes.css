@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    /* border: 2px solid black; */
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+
+    /* padding: 10px 20px 30px 40px; */
+    /* padding-bottom: ; */
+
+
+    /* margin: 10px 20px 30px 40px; */
+    /* margin-bottom: ; */
+    
+    padding: 50px;
+    /* margin: 30px; */
+    width: 250px;
+
+    /* box-sizing: border-box; */
+}

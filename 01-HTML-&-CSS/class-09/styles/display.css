@@ -1,0 +1,44 @@
+/* 
+none
+inline
+block
+inline-block
+
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+
+h1 {
+    display: inline;
+}
+
+a {
+    display: block;
+}
+
+li {
+    display: inline;
+    width: 500px;
+    margin-top: 500px;
+    height: 500px;
+}
+
+/* inline ha usko width or height nahi deskta, margin , padding top or bottom ma nahi deskta. Left or right ma deskta hain */
+
+
+img {
+    width: 50px;
+}
+
+p {
+    /* display: none; */
+    visibility: hidden;
+}
+

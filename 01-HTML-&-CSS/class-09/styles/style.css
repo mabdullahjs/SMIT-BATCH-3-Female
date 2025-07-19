@@ -1,0 +1,126 @@
+/*  
+relative unit
+%
+rem
+em
+
+
+absolute unit
+px
+vw
+vh
+
+
+
+
+.parent {
+    border: 2px solid black;
+     height: 200vh; 
+     width: 50%; 
+    width: 90vw;
+}
+
+.children {
+    border: 1px solid red;
+    height: 80px;
+     width: 90%; 
+    width: 95vw;
+} */
+
+/* html {
+    font-size: 16px;
+} */
+
+/* 
+h1 = 32px
+p 16px  1em
+
+*/
+
+/* p {
+    font-size: 32px;
+    font-weight: bold;
+} */
+
+/* 
+p {
+    font-size: 1em;
+} */
+
+/* h1 {
+    font-size: 1em;
+}
+
+.para {
+    font-size: 32px;
+}
+
+p { 
+    font-size: 2rem;
+}
+
+.px {
+    font-size: 32px;
+} */
+
+
+
+/* 
+fontsize = rem
+padding, margin, border = px
+width, height % vw vh
+
+*/
+
+/* 16px 100%
+10px 62.5%
+*/
+
+html {
+    font-size: 62.5%;
+}
+
+/* p {
+    font-weight: bold;
+    font-style: italic;
+    text-indent: 60px;
+    text-shadow: 5px 2px 3px rgba(255,0,0,0.68);
+} */
+
+/* 
+p:first-line{
+    font-size: 5rem;
+    color: red;
+} */
+
+a:link {
+    color: red;
+}
+
+a:visited{
+    color: black;
+}
+
+
+p:hover {
+    /* border: 2px solid black; */
+    color: white;
+    background-color: lightblue;
+}
+
+button {
+    border: 1px solid black;
+}
+button:active{
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+}
+input:focus {
+    background-color: lightgoldenrodyellow;
+}
+
+h1:first-letter{
+    font-size: 5rem;
+    color: red;
+}

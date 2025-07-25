@@ -1,0 +1,62 @@
+.container {
+    width: 300px;
+    height: 220vh;
+    border: 1px solid black;
+    margin: 0 auto 800px auto;
+}
+
+/* 
+positions
+
+static
+relative
+absolute
+fixed
+sticky
+
+top
+left
+bottom
+right
+
+z-index
+
+*/
+
+.children {
+    width: 100px;
+    height: 100px;
+}
+
+#red{
+    background-color: red;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    /* right: 50px;
+    bottom: 20px; */
+}
+#green{
+    background-color: green;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+}
+#blue{
+    background-color: blue;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+#yellow{
+    background-color: yellow;
+    position: sticky;
+    top: 100px;
+}
+
+/* img {
+    display: block;
+    margin: 0 auto;
+} */
+

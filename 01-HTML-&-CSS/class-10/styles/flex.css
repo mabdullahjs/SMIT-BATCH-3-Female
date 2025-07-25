@@ -1,0 +1,24 @@
+.container {
+    border: 2px solid black;
+    height: 400px;
+
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: row wrap;
+    gap: 10px; */
+    /* column-gap: 10px; */
+
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    align-items: center;
+    align-content: center;
+}
+
+.children {
+    border: 2px solid red;
+}

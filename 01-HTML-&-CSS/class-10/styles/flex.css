@@ -1,8 +1,10 @@
 .container {
     border: 2px solid black;
-    height: 400px;
+    height: 600px;
 
     display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
     /* flex-direction: row; */
     /* justify-content: center; */
     /* flex-wrap: wrap-reverse; */
@@ -10,15 +12,35 @@
     gap: 10px; */
     /* column-gap: 10px; */
 
-    flex-direction: row;
+    /* flex-direction: row;
     gap: 10px;
     justify-content: center;
     flex-wrap: wrap;
 
     align-items: center;
-    align-content: center;
+    align-content: center; */
 }
 
 .children {
     border: 2px solid red;
+    flex-grow: 1;
+}
+/* 
+#box-1{
+    flex-grow: 1;
+}
+#box-2{
+    flex-grow: 3;
+}
+#box-3{
+    flex-grow: 1;
+}
+#box-4{
+    flex-grow: 2;
+} */
+
+#box-4{
+    flex-basis: 40%;
+    align-self: center;
+
 }

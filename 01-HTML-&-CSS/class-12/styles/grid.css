@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    height: 400px;
+
+    display: grid;
+    grid-template-columns: repeat(3 , 100px);
+    /* grid-template-rows: 100px 200px;
+    grid-auto-rows: 200px; */
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.children {
+    border: 1px solid red;
+}

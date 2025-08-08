@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+/*@media(max-width: 1200px){
+    body {
+        background-color: green;
+    }
+}
+
+@media(max-width: 1000px){
+    body {
+        background-color: purple;
+    }
+}
+
+@media(max-width: 600px) {
+    body {
+        background-color: red;
+    }
+}
+ */
+
+.logo {
+  width: 165px;
+}
+
+p {
+  font-size: 1.5rem;
+}
+#nav-items {
+  gap: 20px;
+}
+#menu {
+  font-size: 1.5rem;
+  display: none;
+}
+
+@media (max-width: 1087px) {
+  #menu {
+    display: block;
+  }
+  #nav-items {
+    display: none;
+  }
+  .navbar{
+    justify-content: space-between;
+    margin: 0px 30px;
+  }
+}

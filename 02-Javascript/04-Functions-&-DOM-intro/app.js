@@ -58,22 +58,19 @@ var num = 10;
 // greetUser()
 // greetUser()
 
-
 // Reusability
 
-// parameter 
+// parameter
 // argument
 
 // function greetUser(username){ // parameter receive krna
 //     console.log("hello " + username);
-    
+
 // }
 
 // greetUser("Abdullah") // argument send krna
 // greetUser("Usman")
 // greetUser("John")
-
-
 
 // let fullName = "Muhammad ismail"
 
@@ -90,52 +87,31 @@ var num = 10;
 // let username;
 // console.log(username);
 
-
-
 // function greetUser(username){
 //     console.log("hello " + username);
-    
+
 // }
 
 // greetUser()
 
-
-
-
-
-
-
-
 // function sum(num1 , num2){
 //     console.log(num1 + num2);
-    
+
 // }
 
-
 // sum(20 , 30)
-
-
-
 
 // function gymAdmission(username , age){
 //     if(age >= 18){
 //         console.log(username + " tumha admission milaiga");
-        
+
 //     } else {
 //         console.log(username + " bhai tumhari age " + age + " ha tumha admission nahi milaiga");
-        
+
 //     }
 // }
 
 // gymAdmission("Abdullah" , 12)
-
-
-
-
-
-
-
-
 
 // nested function
 
@@ -143,25 +119,19 @@ var num = 10;
 //     console.log("outer func");
 //     function innerFunc(){
 //         console.log("inner func");
-        
+
 //     }
 
 //     innerFunc()
-    
+
 // }
 // outerfunc()
 
-
-
-
-
 // return keyword
-
 
 // let username = prompt("enter your name");
 // console.log(username);
 // console.log(prompt("enter your name"));
-
 
 // jaha func call hua ha waha return hui wi value ajayegi
 
@@ -169,9 +139,49 @@ var num = 10;
 
 // function greetUser(){
 //     console.log("hello world");
-//     return "return hello world"    
+//     return "return hello world"
 // }
 
 // let username = greetUser();
 // console.log(username);
 // console.log(greetUser());
+
+// function cube(num){
+//     return num ** 3
+// }
+
+// console.log(cube(20));
+
+// function average(num1, num2, num3) {
+//   return (num1 + num2 + num3) / 3;
+// }
+
+// console.log(average(20, 30, 100));
+
+
+
+// function combine(num1 , num2){
+//     if(typeof(num1) === "number" && typeof(num2) === "number"){
+//         console.log("number ha ya");
+//     } else {
+//         console.log("string ha ya");        
+//     }
+//     return num1 + num2
+// }
+
+// console.log(combine(20 , 30));
+
+
+
+
+// function userInput(message){
+//     if(message === undefined){
+//         console.log("no message provided");
+        
+//     }else {
+//         console.log(message);
+        
+//     }
+// }
+
+// userInput()

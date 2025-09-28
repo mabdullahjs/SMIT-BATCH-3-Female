@@ -54,18 +54,66 @@
 
 
 
-const input = document.querySelector("#fullname");
-const h1 = document.querySelector("#result");
-// console.log(input.value);
+// const input = document.querySelector("#fullname");
+// const h1 = document.querySelector("#result");
+// // console.log(input.value);
 
-function getVal(){
-    console.log(input.value);
-    h1.innerHTML = "Hello " + input.value
+// function getVal(){
+//     console.log(input.value);
+//     h1.innerHTML = "Hello " + input.value
     
-    input.value = ""
+//     input.value = ""
     
-}
+// }
 
-function clearHead(){
-    h1.innerHTML = ""
+// function clearHead(){
+//     h1.innerHTML = ""
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+//  4 form field banaingi. 4 subjects ka number user daiga. total marks 400. button ka click paa uska obtained marks, percentage and grade.
+
+
+
+
+
+// let input = document.querySelector("input");
+
+// console.log(Number(input.value));
+
+// Number(input.value)
+// Number(input.value)
+
+
+
+
+const fullName = document.querySelector("#fullname")
+const engMarks = document.querySelector("#engMarks")
+const urduMarks = document.querySelector("#urduMarks")
+const mathsMarks = document.querySelector("#mathsMarks")
+const comMarks = document.querySelector("#comMarks")
+const result = document.querySelector("#result")
+
+
+function generateResult(){
+
+    let totalMarks = 400;
+    let obtainedMarks = +engMarks.value + +urduMarks.value + +mathsMarks.value + +comMarks.value
+    let percentage = obtainedMarks / totalMarks * 100
+
+
+    result.innerHTML = fullName.value + " you got " +  obtainedMarks + 
+    " marks out of " +  totalMarks + " and your percentage is " + percentage + "%"
+    
+    
 }

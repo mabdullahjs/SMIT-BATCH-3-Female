@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM manipulation</title>
 </head>
+
 <body>
     <!-- <h1 id="head">Hello world</h1> -->
     <!-- <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error doloremque totam, omnis, quo corrupti eum reiciendis voluptatum repudiandae ea velit tempora ab vero facere blanditiis eveniet, odio nam vitae quasi!</p> -->
     <!-- <button onclick="greetUser()">function</button> -->
-     <!-- <button onclick="changeText()">change text</button> -->
+    <!-- <button onclick="changeText()">change text</button> -->
 
-     <!-- <button onclick="changeColor('red')">Red</button>
+    <!-- <button onclick="changeColor('red')">Red</button>
      <button onclick="changeColor('green')">Green</button>
      <button onclick="changeColor('blue')">Blue</button>
      <button onclick="changeColor('white')">White</button>
@@ -21,11 +23,30 @@
 
      <h1 id="color-head">White</h1> -->
 
+    <!-- <input type="number">
+
 
      <input id="fullname" type="text" placeholder="enter your fullname"> 
      <button onclick="getVal()">submit</button>
      <button onclick="clearHead()">clear</button>
-     <h1 id="result"></h1>
+     <h1 id="result"></h1> -->
+
+    <h1>Result Generator</h1>
+
+    <input type="text" placeholder="enter your fullname" id="fullname"> <br><br>
+    <input type="number" id="engMarks" placeholder="enter eng marks"><br><br>
+    <input type="number" id="urduMarks" placeholder="enter urdu marks"><br><br>
+    <input type="number" id="mathsMarks" placeholder="enter maths marks"><br><br>
+    <input type="number" id="comMarks" placeholder="enter com marks"><br><br>
+
+
+
+    <button onclick="generateResult()">Generate Result</button>
+    <h1 id="result"></h1>
+
+
+
     <script src="app.js"></script>
 </body>
+
 </html>

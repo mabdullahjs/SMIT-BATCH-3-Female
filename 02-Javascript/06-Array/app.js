@@ -39,6 +39,11 @@
 
 let fruits = ["apple" , "banana" , "mango" , "grapes" , "watermelon" , "pineapple"];
 
+// fruits.splice(1 , 1 , "updated")
+fruits[1] = "update"
+console.log(fruits);
+
+
 // index 0
 // length 1
 // console.log(fruits[2]);
@@ -89,7 +94,7 @@ let username = "Muhammad Abdullah khan"
 // console.log(username.split()); // string to array
 // console.log(fruits.join("zz")); // array to string
 
-console.log(username.split("").reverse().join(""));
+// console.log(username.split("").reverse().join(""));
 
 
 

@@ -11,22 +11,16 @@ let email = "mabdullah@gmail.com";
 // console.log("username is " + fullName + " user age is " + age + " with email " + email);
 // console.log(`username is ${fullName} user age is ${age} with email ${email}`);
 
-
 // console.log("hello world");
 
 // for loop
 // while loop
 // dowhile loop
 
-
 // initialization
 // condition
 // increment
 
-for(let i = 0; i < 10; i++){
-    console.log("hello world",  i);
-    
+for (let i = 0; i < 10; i++) {
+  console.log("hello world", i);
 }
-
-
-

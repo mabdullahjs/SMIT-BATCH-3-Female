@@ -21,6 +21,11 @@ let email = "mabdullah@gmail.com";
 // condition
 // increment
 
-for (let i = 0; i < 10; i++) {
-  console.log("hello world", i);
-}
+// for (let i = 0; i < 10; i++) {
+//   console.log("hello world", i);
+// }
+
+// backtick
+// DOM manipulation
+
+

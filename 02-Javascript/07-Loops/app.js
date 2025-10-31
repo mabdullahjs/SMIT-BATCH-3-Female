@@ -17,9 +17,6 @@
 
 // console.log(`username is ${fullName} user age is ${age} with email ${email}`);
 
-
-
-
 // console.log("username is " + fullName + " user age is " + age + " with email " + email);
 // console.log(`username is ${fullName} user age is ${age} with email ${email}`);
 
@@ -37,19 +34,14 @@
 //   console.log("hello world", i);
 // }
 
-
-
 // console.log("hello world");
 // console.log("hello world");
 // console.log("hello world");
-
-
 
 // for(let i = 1; i <= 10; i++){
 //   console.log("hello world" , i);
 
 // }
-
 
 // table
 
@@ -60,8 +52,6 @@
 
 // }
 
-
-
 // nested loop
 
 // for(let i = 1; i <=10 ; i++){
@@ -69,14 +59,12 @@
 
 //   for(let j = 1; j <= 5; j++){
 //     console.log(j , "inner loop");
-    
+
 //   }
-  
+
 // }
 
 // console.log("console after loop");
-
-
 
 // break continue
 
@@ -91,21 +79,14 @@
 //     continue
 //   }
 //   console.log(i);
-  
+
 // }
-
-
-
-
-
 
 // infinite loop
 
 // for(let i = 0; i < 10; i--){
-// 
+//
 // }
-
-
 
 // table using nested loop
 
@@ -114,22 +95,15 @@
 //   for(let j = 1; j <= 10; j++){
 //     // console.log(i , j);
 //     console.log(`${i} * ${j} = ${i*j}`);
-    
-    
+
 //   }
-  
+
 // }
-
-
-
 
 // iteration
 // for(let i = 1; i <= 10; i++){
 //     console.log(i);
 // }
-
-
-
 
 // loops with array
 
@@ -157,7 +131,6 @@
 //   "Raspberry"
 // ];
 
-
 // console.log(fruit[0]);
 // console.log(fruit[1]);
 // console.log(fruit[2]);
@@ -169,9 +142,8 @@
 //     console.log(fruit[i]);
 //     // ol.innerHTML = ol.innerHTML + `<li>${fruit[i]}</li>`
 //     ol.innerHTML += `<li>${fruit[i]}</li>`
-    
-// }
 
+// }
 
 // // 1. Fruits
 // const fruits = [
@@ -233,18 +205,11 @@
 //   "Saturday", "Sunday"
 // ];
 
-
-
-
-
-
-
 // let i = 5;
 // while(i < 2){
 //     console.log(i);
 //     i++
 // }
-
 
 // do while aik dafa laazmi chalta ha.
 
@@ -254,15 +219,11 @@
 //     i++
 // } while(i < 1)
 
-
-
-
 // let i = 10;
 // while(i >= 1){
 //     console.log(i);
 //     i--
 // }
-
 
 // let i = 1;
 // while(i <= 1000){
@@ -270,9 +231,46 @@
 //     i++
 // }
 
-
-
 // array methods (splice , push)
-// array loop 
+// array loop
 // dom manipulation
 // function (parameter arguments)
+
+// const sports = [
+//   "Football",
+//   "Basketball",
+//   "Tennis",
+//   "Cricket",
+//   "Baseball",
+//   "Golf",
+//   "Hockey",
+//   "Volleyball",
+//   "Rugby",
+//   "Boxing",
+// ];
+
+
+
+// sports.push("add");
+// console.log(sports);
+
+// sports.splice(2 , 0 , "updated")
+// console.log(sports);
+
+// const ol = document.querySelector("#ol");
+
+// for(let i = 0 ; i < sports.length; i++){
+//     // console.log(sports[i]);
+//     ol.innerHTML += `<li>${sports[i]}</li>`
+// }
+
+
+// function greetUser(username){ // parameter
+//     console.log(`hello ${username}`);
+//     return `hello ${username}`
+// }
+
+// let greetings = greetUser("ammar");
+// console.log(greetUser("abdullah"));
+// console.log(greetings);
+

@@ -23,16 +23,16 @@ function renderTodo() {
 
 function addTodo() {
   allTodos.push(input.value);
-  renderTodo()
+  renderTodo();
   input.value = "";
 }
 
 function deleteTodo(index) {
   allTodos.splice(index, 1);
-  renderTodo()
+  renderTodo();
 }
 function editTodo(index) {
-    const updatedVal = prompt("enter updated val");
-    allTodos.splice(index , 1 , updatedVal);
-    renderTodo()
+  const updatedVal = prompt("enter updated val");
+  allTodos.splice(index, 1, updatedVal);
+  renderTodo();
 }

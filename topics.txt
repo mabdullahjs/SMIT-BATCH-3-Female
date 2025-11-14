@@ -1,0 +1,47 @@
+HTML: (week 1)
+
+tags,elements, markup, semantic markup
+Text (headings)
+list
+table
+forms
+extra markup (div , id class etc) 
+
+CSS: (week 2 & 3)
+
+css selectors (class,id,universal)
+inheritance
+precidence
+color
+background color
+font-family
+font-size
+@font-face (changing fontfamily)
+units (font => rem , width,height => %, border,padding,margin => px)
+text-decoration
+text-shadow
+psuedo element & psuedo classes (hover, link, visited, focus, active)
+margin
+padding
+width
+height
+min-width, max-width, min-height, max-height
+overflow
+CSS box model
+box-sizing
+border
+border-image
+box-shadow
+border-radius
+display: inline,inline-block,block,none
+text-align
+visibility
+position (relative , fixed , absolute , sticky, z-index)
+complete flexbox (https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+complete Grid
+Media queries (responsive design)
+Tailwind CSS & Daisy UI
+5 web pages
+
+
+Javascript

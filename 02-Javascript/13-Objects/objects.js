@@ -70,3 +70,25 @@ console.log(user);
 // object delete update add krni properties
 
 //obj banana haa name,email,age,greetuser uska baad firstname and lastname baad ma add krna haa or name delete krna ha. greet user ka function jab bhi call hoo to wo return kraa hello '${fullname}'
+
+
+// const city = {
+//     name: "karachi",
+//     population: 200000,
+//     province: "Sindh",
+//     cityGreeting: function (){
+//         return `hello ${this.lastname}`
+//     }
+// }
+
+// city.fullname = "kolachi"
+// city.lastname = "hello"
+// delete city.name
+// console.log(city);
+
+// console.log(city.cityGreeting());
+
+
+
+
+// 4 formfields banaingi name , email , age, city jaisa hi user submit pa click kraiga mera pass console ma aik object ajayega jiska undar values form wali hongi

@@ -83,3 +83,15 @@ function resetWatch() {
 // // console.log(username);
 // stopWatch()
 // console.log(age);
+
+
+
+//IIFE
+// Immediately Invoked Function Expression
+
+
+
+(function greetUser(){
+    console.log("hello world");
+    
+})()

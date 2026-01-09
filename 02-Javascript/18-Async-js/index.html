@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .children {
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 10px;
+            flex-basis: 15%;
+        }
+        .all-users , deleted-users{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+    </style>
 
 </head>
+
 <body>
-    <h1>Async</h1>
+    <h1>Users</h1>
+    <div class="container">
+        
+    </div>
+    <h1>deleted Users</h1>
+    <div class="deleted-users"></div>
     <script src="./app.js"></script>
 </body>
+
 </html>

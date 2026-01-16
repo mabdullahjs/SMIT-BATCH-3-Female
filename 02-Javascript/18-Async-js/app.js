@@ -580,3 +580,25 @@ function getPlot(bankBalance) {
 // getProductsData();
 
 // local storage
+
+
+
+// weather app
+// https://www.weatherapi.com/
+// https://weather-322.web.app/
+
+
+const city = "lahore";
+const apiKey = 'your_api_key';
+const api = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
+
+
+fetch(api)
+  .then(res => res.json())
+  .then(res => {
+    console.log(res);
+
+  }).catch(err => {
+    console.log(err);
+
+  })

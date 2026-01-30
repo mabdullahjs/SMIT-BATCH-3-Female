@@ -45,3 +45,20 @@ Tailwind CSS & Daisy UI
 
 
 Javascript
+
+primitive datatype (undefined / null)
+operators
+array
+object
+function
+loops
+if-else
+string-methods
+number-methods (NaN)
+date and time
+events
+api call (fetch)
+DOM (queryselector, innerhtml)
+asynchronous Javascript (promises , async await)
+array loops (map filter)
+Advance Javascript

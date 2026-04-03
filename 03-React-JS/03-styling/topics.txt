@@ -1,0 +1,14 @@
+Hooks (useState, useEffect, useRef)
+Tailwind CSS
+React Router DOM (Including Protected Routes, Nested Routes, Dynamic Routes)
+Material UI
+Axios (API handling professionally)
+Use Memo and use Callback
+Custom Hooks
+Firebase OR Supabase
+React Hook Forms
+Context API
+Redux Toolkit
+React Query
+Environment Variables
+Institute Management System Using Firebase

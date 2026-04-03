@@ -25,15 +25,21 @@
 
 // export default Card
 
-
 import React from 'react'
 
 const Card = (props) => {
   return (
-    <>
-    <h3>title: {props.title}</h3>
-    <h3>price: {props.price}</h3>
-    </>
+    <div className="max-w-sm mx-auto bg-white shadow-lg rounded-2xl p-6 hover:shadow-2xl transition duration-300 m-5">
+      
+      <h3 className="text-xl font-semibold text-gray-800 mb-2">
+        {props.title}
+      </h3>
+
+      <p className="text-lg text-green-600 font-bold">
+        ${props.price}
+      </p>
+
+    </div>
   )
 }
 

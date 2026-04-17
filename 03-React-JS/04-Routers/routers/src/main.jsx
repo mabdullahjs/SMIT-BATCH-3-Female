@@ -1,51 +1,15 @@
-// import { createRoot } from 'react-dom/client'
-// import './index.css'
-
-
-// import { BrowserRouter, Route, Routes } from 'react-router'
-// import Home from './Pages/Home'
-// import About from './Pages/About'
-// import Contact from './Pages/Contact'
-// import Services from './Pages/Services'
-// import Dashboard from './Pages/Dashboard/Dashboard'
-// import Profile from './Pages/Dashboard/Profile'
-// import Setting from './Pages/Dashboard/Setting'
-// import Products from './Pages/Products'
-
-// createRoot(document.getElementById('root')).render(
-//   <BrowserRouter>
-//     <Routes>
-//       <Route index element={<Home />} />
-//       <Route path='about' element={<About />} />
-//       <Route path='contact' element={<Contact />} />
-//       <Route path='services' element={<Services />} />
-//       <Route path='products' element={<Products/>} />
-//       {/* Page Not Found Route */}
-//       <Route path='*' element={<h2>Page not Found</h2>} />
-//       {/* Nested Routes */}
-//       <Route path='/dashboard' element={<Dashboard />}>
-//         <Route path='profile' element={<Profile />} />
-//         <Route path='setting' element={<Setting />} />
-//       </Route>
-//     </Routes>
-
-//   </BrowserRouter>
-
-// )
-
-
 import { BrowserRouter, Route, Routes } from "react-router";
 import { createRoot } from 'react-dom/client'
-import Home from "./Pages/Home";
-import About from "./Pages/About";
-import Contact from "./Pages/Contact";
-import Services from "./Pages/Services";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Services from "./pages/Services";
 import Navbar from "./component/Navbar";
-import Dashboard from "./Pages/Dashboard/Dashboard";
+import Dashboard from "./pages/Dashboard/Dashboard";
 import Student from "./pages/Dashboard/Student";
 import Teacher from "./pages/Dashboard/Teacher";
 import Manager from "./pages/Dashboard/Manager";
-import Products from "./Pages/Products";
+import Products from "./pages/Products";
 import SingleProduct from "./pages/SingleProduct";
 
 createRoot(document.getElementById('root')).render(

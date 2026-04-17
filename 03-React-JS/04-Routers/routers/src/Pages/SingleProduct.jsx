@@ -10,7 +10,9 @@ function SingleProduct() {
   useEffect(() => {
     fetch(`https://fakestoreapi.com/products/${id}`)
       .then((res) => {
-      
+        if (!res.ok) {
+          throw new Error('Product not found');
+        }
         return res.json();
       })
       .then((json) => {
